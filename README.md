@@ -80,8 +80,7 @@ On the [Action](https://github.com/ophub/op/actions) page. Select ***`Build Open
  │       ├── build-openwrt-x86_64.yml                  # Build X86_64 Virtual Machine firmware
  │       ├── build-openwrt-s9xxx.yml                   # Build S9xxx-Boxes firmware
  │       ├── build-openwrt-phicomm_n1.yml              # Build Phicomm-N1 firmware
- │       ├── build-openwrt-nanopi_r4s-1gb.yml          # Build NanoPi-R4S-1GB firmware
- │       ├── build-openwrt-nanopi_r4s-4gb.yml          # Build NanoPi-R4S-4GB firmware
+ │       ├── build-openwrt-nanopi_r4s.yml              # Build NanoPi-R4S firmware
  │       ├── build-openwrt-nanopi_r2s.yml              # Build NanoPi-R2S firmware
  │       └── delete-older-releases-artifacts.yml       # Delete older releases & artifacts
  │
@@ -105,8 +104,7 @@ On the [Action](https://github.com/ophub/op/actions) page. Select ***`Build Open
  │   │   └── README.md
  │   │ 
  │   ├── nanopi_r4s                                    # NanoPi R4S related code files
- │   │   ├── .config-1gb
- │   │   ├── .config-4gb
+ │   │   ├── .config
  │   │   ├── diy-part1.sh
  │   │   ├── diy-part2.sh
  │   │   └── README.md
